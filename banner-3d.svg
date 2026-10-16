@@ -1,0 +1,118 @@
+<svg viewBox="0 0 900 280" width="100%" height="280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Karanlık 3D Arka Plan Gradyanı -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07090e" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Cam (Glassmorphism) Gradyanı -->
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- 3D Küp Yüzey Gradyanları -->
+    <linearGradient id="cubeTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7e22ce" />
+      <stop offset="100%" stop-color="#3b0764" />
+    </linearGradient>
+
+    <!-- Neon Parlama Filtresi -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .title { font: 800 38px 'Segoe UI', system-ui, sans-serif; fill: #f8fafc; letter-spacing: 2px; }
+      .subtitle { font: 600 15px 'JetBrains Mono', monospace; fill: #38bdf8; }
+      .tag { font: 600 12px 'Segoe UI', sans-serif; fill: #e2e8f0; }
+      .float-slow { animation: float 6s ease-in-out infinite; }
+      .float-fast { animation: float 4s ease-in-out infinite reverse; }
+      .pulse { animation: pulseGlow 3s ease-in-out infinite; }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-14px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.5; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- Ana Zemin -->
+  <rect width="900" height="280" rx="20" fill="url(#bg)" stroke="#334155" stroke-width="1.5" />
+
+  <!-- İzometrik Perspektif Izgarası (Arka Plan Derinliği) -->
+  <g stroke="#1e293b" stroke-width="1" opacity="0.6">
+    <line x1="0" y1="220" x2="900" y2="220" />
+    <line x1="0" y1="250" x2="900" y2="250" />
+    <line x1="450" y1="140" x2="100" y2="280" />
+    <line x1="450" y1="140" x2="300" y2="280" />
+    <line x1="450" y1="140" x2="600" y2="280" />
+    <line x1="450" y1="140" x2="800" y2="280" />
+  </g>
+
+  <!-- Arka Plan Neon Işık Küreleri -->
+  <circle cx="720" cy="130" r="85" fill="#7e22ce" opacity="0.25" filter="url(#glow)" class="pulse" />
+  <circle cx="160" cy="140" r="70" fill="#0284c7" opacity="0.2" filter="url(#glow)" />
+
+  <!-- Sol Bento Cam Kartı -->
+  <g transform="translate(45, 38)">
+    <rect width="540" height="204" rx="16" fill="url(#glass)" stroke="#475569" stroke-opacity="0.5" stroke-width="1.2" />
+    <!-- Mac Pencere Noktaları -->
+    <circle cx="24" cy="24" r="6" fill="#ef4444" />
+    <circle cx="44" cy="24" r="6" fill="#eab308" />
+    <circle cx="64" cy="24" r="6" fill="#22c55e" />
+    <text x="90" y="28" font-family="monospace" font-size="12" fill="#64748b">veysitasci@arch-dev: ~/portfolio</text>
+
+    <!-- İsim ve Unvan -->
+    <text x="30" y="88" class="title">VEYSİ TAŞÇI</text>
+    <text x="30" y="118" class="subtitle">&gt; Full-Stack, Mobile &amp; 2.5D/3D Game Developer_</text>
+
+    <!-- 3D Hap Rozetler -->
+    <g transform="translate(30, 145)">
+      <rect width="125" height="32" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="1" />
+      <text x="16" y="20" class="tag">⚛️ React Native</text>
+
+      <rect x="138" width="135" height="32" rx="8" fill="#0f172a" stroke="#a855f7" stroke-width="1" />
+      <text x="154" y="20" class="tag">🎮 Godot 4 &amp; C++</text>
+
+      <rect x="286" width="130" height="32" rx="8" fill="#0f172a" stroke="#22c55e" stroke-width="1" />
+      <text x="302" y="20" class="tag">🐧 Linux &amp; AI</text>
+    </g>
+  </g>
+
+  <!-- Sağ Taraf: Havada Süzülen 3D İzometrik Küpler -->
+  <g class="float-slow" transform="translate(710, 85)">
+    <!-- Büyük Merkez 3D Küp -->
+    <polygon points="0,-55 60,-25 0,5 -60,-25" fill="url(#cubeTop)" />
+    <polygon points="-60,-25 0,5 0,75 -60,45" fill="url(#cubeLeft)" />
+    <polygon points="60,-25 0,5 0,75 60,45" fill="url(#cubeRight)" />
+  </g>
+
+  <g class="float-fast" transform="translate(805, 165) scale(0.55)">
+    <!-- Küçük Sağ 3D Küp -->
+    <polygon points="0,-55 60,-25 0,5 -60,-25" fill="url(#cubeTop)" />
+    <polygon points="-60,-25 0,5 0,75 -60,45" fill="url(#cubeLeft)" />
+    <polygon points="60,-25 0,5 0,75 60,45" fill="url(#cubeRight)" />
+  </g>
+
+  <g class="float-fast" transform="translate(635, 180) scale(0.45)">
+    <!-- Küçük Sol 3D Küp -->
+    <polygon points="0,-55 60,-25 0,5 -60,-25" fill="url(#cubeTop)" />
+    <polygon points="-60,-25 0,5 0,75 -60,45" fill="url(#cubeLeft)" />
+    <polygon points="60,-25 0,5 0,75 60,45" fill="url(#cubeRight)" />
+  </g>
+</svg>
