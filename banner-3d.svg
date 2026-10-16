@@ -34,9 +34,10 @@
     </filter>
 
     <style>
-      .title { font: 800 38px 'Segoe UI', system-ui, sans-serif; fill: #f8fafc; letter-spacing: 2px; }
-      .subtitle { font: 600 15px 'JetBrains Mono', monospace; fill: #38bdf8; }
-      .tag { font: 600 12px 'Segoe UI', sans-serif; fill: #e2e8f0; }
+      .title { font: 800 36px 'Segoe UI', system-ui, sans-serif; fill: #f8fafc; letter-spacing: 2px; }
+      .subtitle { font: 600 14px 'JetBrains Mono', monospace; fill: #38bdf8; }
+      .tag { font: 600 11px 'Segoe UI', sans-serif; fill: #e2e8f0; }
+      .lang-text { font: 700 11px 'Segoe UI', sans-serif; fill: #38bdf8; }
       .float-slow { animation: float 6s ease-in-out infinite; }
       .float-fast { animation: float 4s ease-in-out infinite reverse; }
       .pulse { animation: pulseGlow 3s ease-in-out infinite; }
@@ -54,7 +55,7 @@
   <!-- Ana Zemin -->
   <rect width="900" height="280" rx="20" fill="url(#bg)" stroke="#334155" stroke-width="1.5" />
 
-  <!-- İzometrik Perspektif Izgarası (Arka Plan Derinliği) -->
+  <!-- İzometrik Perspektif Izgarası -->
   <g stroke="#1e293b" stroke-width="1" opacity="0.6">
     <line x1="0" y1="220" x2="900" y2="220" />
     <line x1="0" y1="250" x2="900" y2="250" />
@@ -71,18 +72,29 @@
   <!-- Sol Bento Cam Kartı -->
   <g transform="translate(45, 38)">
     <rect width="540" height="204" rx="16" fill="url(#glass)" stroke="#475569" stroke-opacity="0.5" stroke-width="1.2" />
+    
     <!-- Mac Pencere Noktaları -->
     <circle cx="24" cy="24" r="6" fill="#ef4444" />
     <circle cx="44" cy="24" r="6" fill="#eab308" />
     <circle cx="64" cy="24" r="6" fill="#22c55e" />
     <text x="90" y="28" font-family="monospace" font-size="12" fill="#64748b">veysitasci@arch-dev: ~/portfolio</text>
 
+    <!-- DİL SEÇENEKLERİ (TR / EN Butonları) -->
+    <g transform="translate(435, 14)">
+      <!-- Türkçe Aktif Buton -->
+      <rect x="0" y="0" width="38" height="20" rx="4" fill="#38bdf8" opacity="0.2" stroke="#38bdf8" stroke-width="1" />
+      <text x="12" y="14" class="lang-text">TR</text>
+      <!-- İngilizce Pasif Buton -->
+      <rect x="44" y="0" width="38" height="20" rx="4" fill="#0f172a" stroke="#475569" stroke-width="1" />
+      <text x="56" y="14" fill="#94a3b8" font-family="Segoe UI" font-weight="600" font-size="11">EN</text>
+    </g>
+
     <!-- İsim ve Unvan -->
-    <text x="30" y="88" class="title">VEYSİ TAŞÇI</text>
-    <text x="30" y="118" class="subtitle">&gt; Full-Stack, Mobile &amp; 2.5D/3D Game Developer_</text>
+    <text x="30" y="85" class="title">VEYSİ TAŞÇI</text>
+    <text x="30" y="112" class="subtitle">&gt; Full-Stack, Mobile &amp; 2.5D/3D Game Dev_</text>
 
     <!-- 3D Hap Rozetler -->
-    <g transform="translate(30, 145)">
+    <g transform="translate(30, 140)">
       <rect width="125" height="32" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="1" />
       <text x="16" y="20" class="tag">⚛️ React Native</text>
 
@@ -96,21 +108,18 @@
 
   <!-- Sağ Taraf: Havada Süzülen 3D İzometrik Küpler -->
   <g class="float-slow" transform="translate(710, 85)">
-    <!-- Büyük Merkez 3D Küp -->
     <polygon points="0,-55 60,-25 0,5 -60,-25" fill="url(#cubeTop)" />
     <polygon points="-60,-25 0,5 0,75 -60,45" fill="url(#cubeLeft)" />
     <polygon points="60,-25 0,5 0,75 60,45" fill="url(#cubeRight)" />
   </g>
 
   <g class="float-fast" transform="translate(805, 165) scale(0.55)">
-    <!-- Küçük Sağ 3D Küp -->
     <polygon points="0,-55 60,-25 0,5 -60,-25" fill="url(#cubeTop)" />
     <polygon points="-60,-25 0,5 0,75 -60,45" fill="url(#cubeLeft)" />
     <polygon points="60,-25 0,5 0,75 60,45" fill="url(#cubeRight)" />
   </g>
 
   <g class="float-fast" transform="translate(635, 180) scale(0.45)">
-    <!-- Küçük Sol 3D Küp -->
     <polygon points="0,-55 60,-25 0,5 -60,-25" fill="url(#cubeTop)" />
     <polygon points="-60,-25 0,5 0,75 -60,45" fill="url(#cubeLeft)" />
     <polygon points="60,-25 0,5 0,75 60,45" fill="url(#cubeRight)" />
