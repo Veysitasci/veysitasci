@@ -1,6 +1,6 @@
 <div align="center">
 
-  <!-- 3D İZOMETRİK BANNER -->
+  <!-- 3D İZOMETRİK BANNER (Tıklama Sorunu Olmayan Temiz Versiyon) -->
   <img src="./banner-3d.svg" width="100%" alt="Veysi Taşcı 3D Banner" />
 
   <br/><br/>
@@ -12,15 +12,15 @@
 
   <br/>
 
-  <!-- İNTERAKTİF DİL SEÇİM ROZETLERİ -->
-  <a href="#türkçe-profil">
-    <img src="https://img.shields.io/badge/Dil-Türkçe-38bdf8?style=for-the-badge&labelColor=0f172a&logo=googletranslate&logoColor=38bdf8" alt="Turkish" />
-  </a>
-  <a href="#english-profile">
-    <img src="https://img.shields.io/badge/Language-English-a855f7?style=for-the-badge&labelColor=0f172a&logo=googletranslate&logoColor=a855f7" alt="English" />
-  </a>
+  <!-- PROFESYONEL SOSYAL & DİL SEÇENEĞİ ROZETLERİ -->
   <a href="https://github.com/Veysitasci?tab=followers">
-    <img src="https://img.shields.io/github/followers/Veysitasci?label=Takipçi&style=for-the-badge&color=6366f1&labelColor=0f172a&logo=github" alt="Followers" />
+    <img src="https://img.shields.io/github/followers/Veysitasci?label=Takipçi+%2F+Followers&style=for-the-badge&color=6366f1&labelColor=0f172a&logo=github" alt="Followers" />
+  </a>
+  <a href="https://github.com/Veysitasci?tab=repositories">
+    <img src="https://img.shields.io/github/stars/Veysitasci?label=Yıldız+%2F+Stars&style=for-the-badge&color=a855f7&labelColor=0f172a&logo=sparkpost" alt="Stars" />
+  </a>
+  <a href="https://github.com/Veysitasci">
+    <img src="https://img.shields.io/badge/Status-Available_for_Projects-22c55e?style=for-the-badge&labelColor=0f172a&logo=appveyor&logoColor=22c55e" alt="Status" />
   </a>
 
 </div>
@@ -29,16 +29,11 @@
 
 ---
 
-<div id="türkçe-profil"></div>
-
-### 🇹🇷 Türkçe Profil / 🇬🇧 English Profile
-
-> Profilinizi dilediğiniz dilde incelemek için aşağıdaki sekmelere tıklayabilirsiniz. / You can expand the tabs below to view the profile in your preferred language.
+### 🧊 System Architecture & Profile Summary / Sistem Mimarisi
 
 <details>
-<summary><b>🇹🇷 Türkçe Görüntüle (Click to open Turkish version)</b></summary>
+<summary><b>🇹🇷 Türkçe Özeti Görüntüle (Click to expand)</b></summary>
 
-### 🧊 3D Sistem Mimarisi & Profil Özeti
 ~~~yaml
 Geliştirici : "Veysi Taşcı (@Veysitasci)"
 Odak_Alanları:
@@ -50,11 +45,9 @@ Vizyon      : "Yüksek performanslı mimarileri modern tasarımla birleştirmek.
 ~~~
 </details>
 
-<div id="english-profile"></div>
 <details open>
 <summary><b>🇬🇧 English View (Default)</b></summary>
 
-### 🧊 System Architecture & Profile Summary
 ~~~yaml
 Developer   : "Veysi Taşcı (@Veysitasci)"
 Core_Focus  :
@@ -101,4 +94,5 @@ Vision       : "Bridging high-performance native architectures with modern UI/UX
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Veysitasci&bg_color=0d1117&color=38bdf8&line=a855f7&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph" />
 </div>
 
+<!-- DALGALI 3D ALT BİLGİ -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e1b4b,100:3b0764&height=110&section=footer" width="100%" />
