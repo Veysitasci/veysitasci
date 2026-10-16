@@ -1,6 +1,6 @@
 <div align="center">
 
-  <!-- SENİN OLUŞTURDUĞUN 3D İZOMETRİK BANNER -->
+  <!-- 3D İZOMETRİK BANNER -->
   <img src="./banner-3d.svg" width="100%" alt="Veysi Taşcı 3D Banner" />
 
   <br/><br/>
@@ -12,7 +12,7 @@
 
   <br/>
 
-  <!-- KIRILMAYAN MODERN ROZETLER -->
+  <!-- MODERN ROZETLER -->
   <a href="https://github.com/Veysitasci?tab=followers">
     <img src="https://img.shields.io/github/followers/Veysitasci?label=Takip%C3%A7i&style=for-the-badge&color=6366f1&labelColor=0f172a&logo=github" alt="Followers" />
   </a>
@@ -31,7 +31,7 @@
 
 ### 🧊 3D Sistem Mimarisi & Profil Özeti
 
-```yaml
+~~~yaml
 Geliştirici : "Veysi Taşcı (@Veysitasci)"
 Odak_Alanları:
   Mobil_Web : ["React Native", "Expo", "TypeScript", "Node.js", "Python"]
@@ -39,3 +39,43 @@ Odak_Alanları:
   UI_UX     : ["Bento Grid", "Glassmorphism", "SVG & Lottie Animasyon"]
   Altyapı   : ["Linux (Ubuntu / Kali)", "Docker", "Nginx", "PostgreSQL"]
 Vizyon      : "Yüksek performanslı mimarileri modern tasarımla birleştirmek."
+~~~
+
+---
+
+### 🛠️ 3D Teknoloji Vitrinim (Tech Stack)
+
+<div align="center">
+
+| 🌐 Frontend, Mobil & UI | ⚙️ Backend, DB & Otomasyon | 🎮 Oyun Geliştirme & Sistem |
+| :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=react,ts,js,tailwind,html,css&perline=3" /> | <img src="https://skillicons.dev/icons?i=nodejs,py,flask,postgres,sqlite,docker&perline=3" /> | <img src="https://skillicons.dev/icons?i=godot,cpp,linux,kali,git,github&perline=3" /> |
+
+</div>
+
+---
+
+### 🏙️ 3D İzometrik Katkı Grafiği (3D Contribution City)
+
+<div align="center">
+  <img alt="Veysitasci 3D Contribution Graph" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
+</div>
+
+---
+
+### 📊 Neon İstatistikler & Aktivite Dalgaları
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Veysitasci&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=A855F7&currStreakLabel=38BDF8" width="49%" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Veysitasci&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8" width="48%" alt="Top Langs" />
+</div>
+
+<br/>
+
+<!-- 3D DERİNLİKLİ NEON AKTİVİTE GRAFİĞİ -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Veysitasci&bg_color=0d1117&color=38bdf8&line=a855f7&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph" />
+</div>
+
+<!-- DALGALI 3D ALT BİLGİ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e1b4b,100:3b0764&height=110&section=footer" width="100%" />
