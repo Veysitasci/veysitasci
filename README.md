@@ -1,6 +1,6 @@
 <div align="center">
 
-  <!-- 3D İZOMETRİK BANNER (Tıklama Sorunu Olmayan Temiz Versiyon) -->
+  <!-- TIKLANABİLİR 3D İZOMETRİK BANNER -->
   <img src="./banner-3d.svg" width="100%" alt="Veysi Taşcı 3D Banner" />
 
   <br/><br/>
@@ -12,15 +12,15 @@
 
   <br/>
 
-  <!-- PROFESYONEL SOSYAL & DİL SEÇENEĞİ ROZETLERİ -->
+  <!-- PRODÜKTİF SOSYAL & DİL SEÇENEĞİ ROZETLERİ -->
+  <a href="#türkçe-profil">
+    <img src="https://img.shields.io/badge/Dil-Türkçe-38bdf8?style=for-the-badge&labelColor=0f172a&logo=googletranslate&logoColor=38bdf8" alt="Turkish" />
+  </a>
+  <a href="#english-profile">
+    <img src="https://img.shields.io/badge/Language-English-a855f7?style=for-the-badge&labelColor=0f172a&logo=googletranslate&logoColor=a855f7" alt="English" />
+  </a>
   <a href="https://github.com/Veysitasci?tab=followers">
     <img src="https://img.shields.io/github/followers/Veysitasci?label=Takipçi+%2F+Followers&style=for-the-badge&color=6366f1&labelColor=0f172a&logo=github" alt="Followers" />
-  </a>
-  <a href="https://github.com/Veysitasci?tab=repositories">
-    <img src="https://img.shields.io/github/stars/Veysitasci?label=Yıldız+%2F+Stars&style=for-the-badge&color=a855f7&labelColor=0f172a&logo=sparkpost" alt="Stars" />
-  </a>
-  <a href="https://github.com/Veysitasci">
-    <img src="https://img.shields.io/badge/Status-Available_for_Projects-22c55e?style=for-the-badge&labelColor=0f172a&logo=appveyor&logoColor=22c55e" alt="Status" />
   </a>
 
 </div>
@@ -29,10 +29,12 @@
 
 ---
 
-### 🧊 System Architecture & Profile Summary / Sistem Mimarisi
+<div id="türkçe-profil"></div>
+
+### 🧊 3D Sistem Mimarisi & Profil Özeti / System Architecture
 
 <details>
-<summary><b>🇹🇷 Türkçe Özeti Görüntüle (Click to expand)</b></summary>
+<summary><b>🇹🇷 Türkçe Görüntüle (Click to expand Turkish)</b></summary>
 
 ~~~yaml
 Geliştirici : "Veysi Taşcı (@Veysitasci)"
@@ -45,6 +47,7 @@ Vizyon      : "Yüksek performanslı mimarileri modern tasarımla birleştirmek.
 ~~~
 </details>
 
+<div id="english-profile"></div>
 <details open>
 <summary><b>🇬🇧 English View (Default)</b></summary>
 
@@ -61,13 +64,15 @@ Vision       : "Bridging high-performance native architectures with modern UI/UX
 
 ---
 
-### 🛠️ 3D Teknoloji Vitrinim / Tech Stack
+### 🛠️ Tıklanabilir 3D Teknoloji Vitrinim / Interactive Tech Stack
+
+> *Aşağıdaki teknoloji gruplarına tıklayarak ilgili ekosistemlerin dokümantasyonlarına ulaşabilirsin:*
 
 <div align="center">
 
 | 🌐 Frontend, Mobile & UI | ⚙️ Backend, DB & Automation | 🎮 Game Dev & Systems |
 | :---: | :---: | :---: |
-| <img src="https://skillicons.dev/icons?i=react,ts,js,tailwind,html,css&perline=3" /> | <img src="https://skillicons.dev/icons?i=nodejs,py,flask,postgres,sqlite,docker&perline=3" /> | <img src="https://skillicons.dev/icons?i=godot,cpp,linux,kali,git,github&perline=3" /> |
+| [![React Native](https://skillicons.dev/icons?i=react,ts,js,tailwind,html,css&perline=3)](https://reactnative.dev) | [![Backend](https://skillicons.dev/icons?i=nodejs,py,flask,postgres,sqlite,docker&perline=3)](https://nodejs.org) | [![GameDev](https://skillicons.dev/icons?i=godot,cpp,linux,kali,git,github&perline=3)](https://godotengine.org) |
 
 </div>
 
@@ -81,11 +86,15 @@ Vision       : "Bridging high-performance native architectures with modern UI/UX
 
 ---
 
-### 📊 İstatistikler & Aktivite / Stats & Activity
+### 📊 Neon İstatistikler & Aktivite / Stats & Activity
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Veysitasci&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=A855F7&currStreakLabel=38BDF8" width="49%" alt="GitHub Streak" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Veysitasci&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8" width="48%" alt="Top Langs" />
+  <a href="https://github.com/Veysitasci">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Veysitasci&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=A855F7&currStreakLabel=38BDF8" width="49%" alt="GitHub Streak" />
+  </a>
+  <a href="https://github.com/Veysitasci?tab=repositories">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Veysitasci&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8" width="48%" alt="Top Langs" />
+  </a>
 </div>
 
 <br/>
