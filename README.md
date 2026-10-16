@@ -1,6 +1,6 @@
 <div align="center">
 
-  <!-- 3D İZOMETRİK BANNER -->
+  <!-- 3D İZOMETRİK BANNER (TR/EN Butonlu) -->
   <img src="./banner-3d.svg" width="100%" alt="Veysi Taşcı 3D Banner" />
 
   <br/><br/>
@@ -14,13 +14,13 @@
 
   <!-- MODERN ROZETLER -->
   <a href="https://github.com/Veysitasci?tab=followers">
-    <img src="https://img.shields.io/github/followers/Veysitasci?label=Takip%C3%A7i&style=for-the-badge&color=6366f1&labelColor=0f172a&logo=github" alt="Followers" />
+    <img src="https://img.shields.io/github/followers/Veysitasci?label=Takip%C3%A7i+%2F+Followers&style=for-the-badge&color=6366f1&labelColor=0f172a&logo=github" alt="Followers" />
   </a>
   <a href="https://github.com/Veysitasci?tab=repositories">
-    <img src="https://img.shields.io/github/stars/Veysitasci?label=Toplam%20Y%C4%B1ld%C4%B1z&style=for-the-badge&color=a855f7&labelColor=0f172a&logo=sparkpost" alt="Stars" />
+    <img src="https://img.shields.io/github/stars/Veysitasci?label=Y%C4%B1ld%C4%B1z+%2F+Stars&style=for-the-badge&color=a855f7&labelColor=0f172a&logo=sparkpost" alt="Stars" />
   </a>
   <a href="https://github.com/Veysitasci">
-    <img src="https://img.shields.io/badge/Odak-Full--Stack%20%26%20Game%20Dev-38bdf8?style=for-the-badge&labelColor=0f172a&logo=godotengine&logoColor=38bdf8" alt="Focus" />
+    <img src="https://img.shields.io/badge/Lang-TR+%7C+EN-38bdf8?style=for-the-badge&labelColor=0f172a&logo=googletranslate&logoColor=38bdf8" alt="Language" />
   </a>
 
 </div>
@@ -29,7 +29,10 @@
 
 ---
 
-### 🧊 3D Sistem Mimarisi & Profil Özeti
+### 🧊 3D Sistem Mimarisi & Profil Özeti / System Architecture
+
+<details>
+<summary><b>🇹🇷 Türkçe Görüntüle (Click to expand)</b></summary>
 
 ~~~yaml
 Geliştirici : "Veysi Taşcı (@Veysitasci)"
@@ -40,14 +43,29 @@ Odak_Alanları:
   Altyapı   : ["Linux (Ubuntu / Kali)", "Docker", "Nginx", "PostgreSQL"]
 Vizyon      : "Yüksek performanslı mimarileri modern tasarımla birleştirmek."
 ~~~
+</details>
+
+<details open>
+<summary><b>🇬🇧 English View (Default)</b></summary>
+
+~~~yaml
+Developer   : "Veysi Taşcı (@Veysitasci)"
+Core_Focus  :
+  Mobile_Web : ["React Native", "Expo", "TypeScript", "Node.js", "Python"]
+  Game_Dev   : ["Godot 4.x", "C++ (GDExtension)", "2.5D Isometric Systems"]
+  UI_UX      : ["Bento Grid", "Glassmorphism", "SVG & Lottie Animations"]
+  Infrastructure: ["Linux (Ubuntu / Kali)", "Docker", "Nginx", "PostgreSQL"]
+Vision       : "Bridging high-performance native architectures with modern UI/UX design."
+~~~
+</details>
 
 ---
 
-### 🛠️ 3D Teknoloji Vitrinim (Tech Stack)
+### 🛠️ 3D Teknoloji Vitrinim / Tech Stack
 
 <div align="center">
 
-| 🌐 Frontend, Mobil & UI | ⚙️ Backend, DB & Otomasyon | 🎮 Oyun Geliştirme & Sistem |
+| 🌐 Frontend, Mobile & UI | ⚙️ Backend, DB & Automation | 🎮 Game Dev & Systems |
 | :---: | :---: | :---: |
 | <img src="https://skillicons.dev/icons?i=react,ts,js,tailwind,html,css&perline=3" /> | <img src="https://skillicons.dev/icons?i=nodejs,py,flask,postgres,sqlite,docker&perline=3" /> | <img src="https://skillicons.dev/icons?i=godot,cpp,linux,kali,git,github&perline=3" /> |
 
@@ -55,7 +73,7 @@ Vizyon      : "Yüksek performanslı mimarileri modern tasarımla birleştirmek.
 
 ---
 
-### 🏙️ 3D İzometrik Katkı Grafiği (3D Contribution City)
+### 🏙️ 3D İzometrik Katkı Grafiği / 3D Contribution City
 
 <div align="center">
   <img alt="Veysitasci 3D Contribution Graph" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
@@ -63,7 +81,7 @@ Vizyon      : "Yüksek performanslı mimarileri modern tasarımla birleştirmek.
 
 ---
 
-### 📊 Neon İstatistikler & Aktivite Dalgaları
+### 📊 Neon İstatistikler / Neon Stats
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Veysitasci&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=A855F7&currStreakLabel=38BDF8" width="49%" alt="GitHub Streak" />
