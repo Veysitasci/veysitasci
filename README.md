@@ -1,78 +1,104 @@
-<svg viewBox="0 0 900 260" width="100%" height="260" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#07090e" />
-      <stop offset="50%" stop-color="#0f172a" />
-      <stop offset="100%" stop-color="#1e1b4b" />
-    </linearGradient>
-    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
-    </linearGradient>
-    <linearGradient id="cubeTop" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#818cf8" />
-    </linearGradient>
-    <linearGradient id="cubeLeft" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0284c7" />
-      <stop offset="100%" stop-color="#1e3a8a" />
-    </linearGradient>
-    <linearGradient id="cubeRight" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#7e22ce" />
-      <stop offset="100%" stop-color="#3b0764" />
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-    <style>
-      .title { font: 800 36px 'Segoe UI', system-ui, sans-serif; fill: #f8fafc; letter-spacing: 2px; }
-      .subtitle { font: 600 14px 'JetBrains Mono', monospace; fill: #38bdf8; }
-      .tag { font: 600 11px 'Segoe UI', sans-serif; fill: #e2e8f0; }
-      .float-slow { animation: float 6s ease-in-out infinite; }
-      .float-fast { animation: float 4s ease-in-out infinite reverse; }
-      .pulse { animation: pulseGlow 3s ease-in-out infinite; }
-      @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-14px); } }
-      @keyframes pulseGlow { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
-    </style>
-  </defs>
+<div align="center">
 
-  <rect width="900" height="260" rx="20" fill="url(#bg)" stroke="#334155" stroke-width="1.5" />
+  <!-- 3D İZOMETRİK BANNER -->
+  <img src="./banner-3d.svg" width="100%" alt="Veysi Taşcı 3D Banner" />
 
-  <g stroke="#1e293b" stroke-width="1" opacity="0.6">
-    <line x1="0" y1="200" x2="900" y2="200" />
-    <line x1="450" y1="130" x2="100" y2="260" />
-    <line x1="450" y1="130" x2="800" y2="260" />
-  </g>
+  <br/><br/>
 
-  <circle cx="720" cy="120" r="85" fill="#7e22ce" opacity="0.25" filter="url(#glow)" class="pulse" />
-  <circle cx="160" cy="130" r="70" fill="#0284c7" opacity="0.2" filter="url(#glow)" />
+  <!-- DAKTİLO EFEKTLİ DİNAMİK UNVAN -->
+  <a href="https://github.com/Veysitasci">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=700&lines=%F0%9F%9A%80+React+Native+%26+Full-Stack+Architecture;%F0%9F%8E%AE+Godot+4+%26+C%2B%2B+(GDExtension)+Game+Development;%F0%9F%8E%A8+3D+%2F+Isometric+UI%2FUX+%26+Bento+Grid+Design;%F0%9F%A4%96+AI+Agents+%26+Linux+Automation+Systems" alt="Typing SVG" />
+  </a>
 
-  <g transform="translate(45, 30)">
-    <rect width="550" height="200" rx="16" fill="url(#glass)" stroke="#475569" stroke-opacity="0.5" stroke-width="1.2" />
-    <circle cx="24" cy="24" r="6" fill="#ef4444" />
-    <circle cx="44" cy="24" r="6" fill="#eab308" />
-    <circle cx="64" cy="24" r="6" fill="#22c55e" />
-    <text x="90" y="28" font-family="monospace" font-size="12" fill="#64748b">veysitasci@arch-dev: ~/portfolio</text>
+  <br/>
 
-    <text x="30" y="82" class="title">VEYSİ TAŞÇI</text>
-    <text x="30" y="110" class="subtitle">&gt; Full-Stack, Mobile &amp; 2.5D/3D Game Dev_</text>
+  <!-- İNTERAKTİF DİL SEÇİM ROZETLERİ -->
+  <a href="#türkçe-profil">
+    <img src="https://img.shields.io/badge/Dil-Türkçe-38bdf8?style=for-the-badge&labelColor=0f172a&logo=googletranslate&logoColor=38bdf8" alt="Turkish" />
+  </a>
+  <a href="#english-profile">
+    <img src="https://img.shields.io/badge/Language-English-a855f7?style=for-the-badge&labelColor=0f172a&logo=googletranslate&logoColor=a855f7" alt="English" />
+  </a>
+  <a href="https://github.com/Veysitasci?tab=followers">
+    <img src="https://img.shields.io/github/followers/Veysitasci?label=Takipçi&style=for-the-badge&color=6366f1&labelColor=0f172a&logo=github" alt="Followers" />
+  </a>
 
-    <g transform="translate(30, 138)">
-      <rect width="125" height="32" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="1" />
-      <text x="16" y="20" class="tag">⚛️ React Native</text>
+</div>
 
-      <rect x="138" width="135" height="32" rx="8" fill="#0f172a" stroke="#a855f7" stroke-width="1" />
-      <text x="154" y="20" class="tag">🎮 Godot 4 &amp; C++</text>
+<br/>
 
-      <rect x="286" width="130" height="32" rx="8" fill="#0f172a" stroke="#22c55e" stroke-width="1" />
-      <text x="302" y="20" class="tag">🐧 Linux &amp; AI</text>
-    </g>
-  </g>
+---
 
-  <g class="float-slow" transform="translate(730, 80)">
-    <polygon points="0,-55 60,-25 0,5 -60,-25" fill="url(#cubeTop)" />
-    <polygon points="-60,-25 0,5 0,75 -60,45" fill="url(#cubeLeft)" />
-    <polygon points="60,-25 0,5 0,75 60,45" fill="url(#cubeRight)" />
-  </g>
-</svg>
+<div id="türkçe-profil"></div>
+
+### 🇹🇷 Türkçe Profil / 🇬🇧 English Profile
+
+> Profilinizi dilediğiniz dilde incelemek için aşağıdaki sekmelere tıklayabilirsiniz. / You can expand the tabs below to view the profile in your preferred language.
+
+<details>
+<summary><b>🇹🇷 Türkçe Görüntüle (Click to open Turkish version)</b></summary>
+
+### 🧊 3D Sistem Mimarisi & Profil Özeti
+~~~yaml
+Geliştirici : "Veysi Taşcı (@Veysitasci)"
+Odak_Alanları:
+  Mobil_Web : ["React Native", "Expo", "TypeScript", "Node.js", "Python"]
+  Oyun_Dev  : ["Godot 4.x", "C++ (GDExtension)", "2.5D İzometrik Sistemler"]
+  UI_UX     : ["Bento Grid", "Glassmorphism", "SVG & Lottie Animasyon"]
+  Altyapı   : ["Linux (Ubuntu / Kali)", "Docker", "Nginx", "PostgreSQL"]
+Vizyon      : "Yüksek performanslı mimarileri modern tasarımla birleştirmek."
+~~~
+</details>
+
+<div id="english-profile"></div>
+<details open>
+<summary><b>🇬🇧 English View (Default)</b></summary>
+
+### 🧊 System Architecture & Profile Summary
+~~~yaml
+Developer   : "Veysi Taşcı (@Veysitasci)"
+Core_Focus  :
+  Mobile_Web : ["React Native", "Expo", "TypeScript", "Node.js", "Python"]
+  Game_Dev   : ["Godot 4.x", "C++ (GDExtension)", "2.5D Isometric Systems"]
+  UI_UX      : ["Bento Grid", "Glassmorphism", "SVG & Lottie Animations"]
+  Infrastructure: ["Linux (Ubuntu / Kali)", "Docker", "Nginx", "PostgreSQL"]
+Vision       : "Bridging high-performance native architectures with modern UI/UX design."
+~~~
+</details>
+
+---
+
+### 🛠️ 3D Teknoloji Vitrinim / Tech Stack
+
+<div align="center">
+
+| 🌐 Frontend, Mobile & UI | ⚙️ Backend, DB & Automation | 🎮 Game Dev & Systems |
+| :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=react,ts,js,tailwind,html,css&perline=3" /> | <img src="https://skillicons.dev/icons?i=nodejs,py,flask,postgres,sqlite,docker&perline=3" /> | <img src="https://skillicons.dev/icons?i=godot,cpp,linux,kali,git,github&perline=3" /> |
+
+</div>
+
+---
+
+### 🏙️ 3D İzometrik Katkı Grafiği / 3D Contribution City
+
+<div align="center">
+  <img alt="Veysitasci 3D Contribution Graph" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
+</div>
+
+---
+
+### 📊 İstatistikler & Aktivite / Stats & Activity
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Veysitasci&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=A855F7&currStreakLabel=38BDF8" width="49%" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Veysitasci&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8" width="48%" alt="Top Langs" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Veysitasci&bg_color=0d1117&color=38bdf8&line=a855f7&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph" />
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e1b4b,100:3b0764&height=110&section=footer" width="100%" />
