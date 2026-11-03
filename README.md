@@ -1,1 +1,1 @@
-### VİPE CODER :) ###
+### VİBE CODER :) ###
